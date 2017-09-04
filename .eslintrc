@@ -1,0 +1,46 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "modules": true
+      },
+      "ecmaVersion": 8,
+      "sourceType": "module"
+    },
+    "extends": [
+      "plugin:flowtype/recommended"
+    ],
+    "plugins": [
+      "flowtype"
+    ],
+    "rules": {
+      "semi": [
+        "warn",
+        "never"
+      ],
+      "no-var": "warn",
+      "quotes": [
+        "warn",
+        "double",
+        {
+          "allowTemplateLiterals": true
+        }
+      ],
+      "no-unused-vars": "warn",
+      "no-duplicate-imports": "warn",
+      "no-tabs": "warn",
+      "no-const-assign": "warn",
+      "no-inline-comments": "warn",
+      "block-spacing": "warn",
+      "no-console": [
+        "warn",
+        {
+          "allow": [
+            "warn",
+            "error",
+            "info"
+          ]
+        }
+      ]
+    }
+  }
